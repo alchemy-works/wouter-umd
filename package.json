@@ -1,0 +1,30 @@
+{
+  "name": "wouter-umd",
+  "version": "2.8.0-alpha.2-1",
+  "description": "wouter-umd",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchemy-works/wouter-umd.git"
+  },
+  "keywords": [],
+  "author": "cbdyzj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alchemy-works/wouter-umd/issues"
+  },
+  "homepage": "https://github.com/alchemy-works/wouter-umd#readme",
+  "dependencies": {
+    "react": "^18.0.0",
+    "wouter": "2.8.0-alpha.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
